@@ -15,19 +15,20 @@
 - [FiraCode](https://github.com/tonsky/FiraCode) font
 
 ## 팁
-> **`.vscode` 디렉토리 안에 user snippet 파일 있습니다.**<br> 1. 해당 디렉토리를 프로젝트 안에 넣으시고<br>2. `문제번호.cpp` 파일 만들고 `algo` 라고 치거나, `dp` 라고 치면 <br>3. 아래처럼 주석과 함께 템플릿이 자동완성됩니다.
-```cpp
-// 2021.10.02 23:25:58
-// 7569 https://boj.kr/7569
-#include <bits/stdc++.h>
-using namespace std;
+- > **`.vscode` 디렉토리 안에 user snippet 파일 있습니다.**<br> 1. 해당 디렉토리를 프로젝트 안에 넣으시고<br>2. `문제번호.cpp` 파일 만들고 `algo` 라고 치거나, `dp` 라고 치면 <br>3. 아래처럼 주석과 함께 템플릿이 자동완성됩니다.
+    ```cpp
+    // 2021.10.02 23:25:58
+    // 7569 https://boj.kr/7569
+    #include <bits/stdc++.h>
+    using namespace std;
 
-int main(){
-    cin.tie(0);
-    ios::sync_with_stdio(false);
-    
-}
-```
+    int main(){
+        cin.tie(0);
+        ios::sync_with_stdio(false);
+
+    }
+    ```
+- > **BOJ 디렉토리 안에 `clear.sh`가 있습니다.**<br> 디렉토리 안에서 `./clear.sh` 라고 외치시면 컴파일된 바이너리들이 증발합니다. (구조 정리 시 👍)
 
 ## 기존에 풀었던 문제는 어디갔을까?
 ~~다른 문제들은 어디있는지 모르겠어요<br>
