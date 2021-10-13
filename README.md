@@ -4,8 +4,19 @@
 
 ![GitHub commit activity](https://img.shields.io/github/commit-activity/w/0chil/algo)
 ![GitHub last commit](https://img.shields.io/github/last-commit/0chil/algo)
-[![Custom badge](https://img.shields.io/endpoint?url=https%3A%2F%2Fapi.chll.it%2FgetLatestPost%2Fbadge&color=12b886)](https://chll.it)<br>
-[![Hits](https://hits.seeyoufarm.com/api/count/incr/badge.svg?url=https%3A%2F%2Fgithub.com%2F0chil%2Falgo&count_bg=%2379C83D&title_bg=%23555555&icon=&icon_color=%23E7E7E7&title=hits&edge_flat=false)](https://hits.seeyoufarm.com)
+[![Hits](https://hits.seeyoufarm.com/api/count/incr/badge.svg?url=https%3A%2F%2Fgithub.com%2F0chil%2Falgo&count_bg=%23007EC6&title_bg=%23555555&icon=&icon_color=%23E7E7E7&title=hits&edge_flat=false)](https://hits.seeyoufarm.com)
+<!-- [![Latest Post](https://img.shields.io/endpoint?url=https%3A%2F%2Fapi.chll.it%2FgetLatestPost%2Fbadge&color=12b886)](https://chll.it)<br> -->
+
+
+![Solved](https://img.shields.io/badge/dynamic/json?label=solved&query=%24.solvedCount&suffix=%20problems&url=https%3A%2F%2Fapi.chll.it%2Fsolvedac)
+![Rank](https://img.shields.io/badge/dynamic/json?label=rank&query=%24.rank&url=https%3A%2F%2Fapi.chll.it%2Fsolvedac)
+![Keep Solving For](https://img.shields.io/badge/dynamic/json?label=keep%20solving%20for&query=%24.maxStreak&suffix=%20days&url=https%3A%2F%2Fapi.chll.it%2Fsolvedac)
+<div align=center><img src="https://static.solved.ac/tier_small/13.svg" width=75>
+
+![Tier](https://img.shields.io/badge/dynamic/json?color=yellow&label=tier&query=%24.tierName&url=https%3A%2F%2Fapi.chll.it%2Fsolvedac)
+</div>
+
+
 </div>
 
 ## 여기다 뭐하는 중?
@@ -13,6 +24,9 @@
 - 인상깊거나 재밌었던, 혹은 고민하게 했던 사항은 블로그/코드에 적어놓는 편입니다.
 - ### [땡칠로그 - 사지방에서 알고리즘 시리즈](https://velog.io/@0chil/series/%EC%82%AC%EC%A7%80%EB%B0%A9%EC%97%90%EC%84%9C-%EC%BD%94%EB%94%A9%ED%95%98%EA%B8%B0)
 - 동적계획법을 좋아해서 동적계획법으로 좀 편향되었을 수 있습니다.
+
+## 문제집/순서
+- [알고리즘 문제 리스트](https://velog.io/@0chil/%EC%95%8C%EA%B3%A0%EB%A6%AC%EC%A6%98-%EB%AC%B8%EC%A0%9C-%EB%A6%AC%EC%8A%A4%ED%8A%B8%EA%B8%B0%EC%B4%881%EC%A4%91%EA%B8%893)
 
 ## 알고리즘 푸는 환경
 - 사지방
@@ -40,5 +54,5 @@
 - > **BOJ 디렉토리 안에 `clear.sh`가 있습니다.**<br> 디렉토리 안에서 `./clear.sh` 라고 외치시면 컴파일된 바이너리들이 증발합니다. (구조 정리 시 👍)
 
 ## 기존에 풀었던 문제는 어디갔을까?
-~~다른 문제들은 어디있는지 모르겠어요<br>
-Baekjoon Online Judge에 있지 않을까~~
+다른 문제들은 어디있는지 모르겠어요<br>
+~~Baekjoon Online Judge에 있지 않을까~~
