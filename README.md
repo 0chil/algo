@@ -6,7 +6,7 @@
 ![GitHub last commit](https://img.shields.io/github/last-commit/0chil/algo)
 [![Hits](https://hits.seeyoufarm.com/api/count/incr/badge.svg?url=https%3A%2F%2Fgithub.com%2F0chil%2Falgo&count_bg=%23007EC6&title_bg=%23555555&icon=&icon_color=%23E7E7E7&title=hits&edge_flat=false)](https://hits.seeyoufarm.com)
 <!-- [![Latest Post](https://img.shields.io/endpoint?url=https%3A%2F%2Fapi.chll.it%2FgetLatestPost%2Fbadge&color=12b886)](https://chll.it)<br> -->
-<div align=center><img src="https://static.solved.ac/tier_small/13.svg" width=75>
+<div align=center><img src="https://api.chll.it/solvedac/tierImage" width=75>
 
 ![Tier](https://img.shields.io/badge/dynamic/json?color=yellow&label=tier&query=%24.tierName&url=https%3A%2F%2Fapi.chll.it%2Fsolvedac)
 </div>
