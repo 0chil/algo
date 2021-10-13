@@ -6,17 +6,14 @@
 ![GitHub last commit](https://img.shields.io/github/last-commit/0chil/algo)
 [![Hits](https://hits.seeyoufarm.com/api/count/incr/badge.svg?url=https%3A%2F%2Fgithub.com%2F0chil%2Falgo&count_bg=%23007EC6&title_bg=%23555555&icon=&icon_color=%23E7E7E7&title=hits&edge_flat=false)](https://hits.seeyoufarm.com)
 <!-- [![Latest Post](https://img.shields.io/endpoint?url=https%3A%2F%2Fapi.chll.it%2FgetLatestPost%2Fbadge&color=12b886)](https://chll.it)<br> -->
-
-
-![Solved](https://img.shields.io/badge/dynamic/json?label=solved&query=%24.solvedCount&suffix=%20problems&url=https%3A%2F%2Fapi.chll.it%2Fsolvedac)
-![Rank](https://img.shields.io/badge/dynamic/json?label=rank&query=%24.rank&url=https%3A%2F%2Fapi.chll.it%2Fsolvedac)
-![Keep Solving For](https://img.shields.io/badge/dynamic/json?label=keep%20solving%20for&query=%24.maxStreak&suffix=%20days&url=https%3A%2F%2Fapi.chll.it%2Fsolvedac)
 <div align=center><img src="https://static.solved.ac/tier_small/13.svg" width=75>
 
 ![Tier](https://img.shields.io/badge/dynamic/json?color=yellow&label=tier&query=%24.tierName&url=https%3A%2F%2Fapi.chll.it%2Fsolvedac)
 </div>
 
-
+![Solved](https://img.shields.io/badge/dynamic/json?label=solved&query=%24.solvedCount&suffix=%20problems&url=https%3A%2F%2Fapi.chll.it%2Fsolvedac)
+![Rank](https://img.shields.io/badge/dynamic/json?label=rank&query=%24.rank&url=https%3A%2F%2Fapi.chll.it%2Fsolvedac)
+![Keep Solving For](https://img.shields.io/badge/dynamic/json?label=keep%20solving%20for&query=%24.maxStreak&suffix=%20days&url=https%3A%2F%2Fapi.chll.it%2Fsolvedac)
 </div>
 
 ## 여기다 뭐하는 중?
