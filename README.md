@@ -4,7 +4,7 @@
 
 ![GitHub commit activity](https://img.shields.io/github/commit-activity/w/0chil/algo)
 ![GitHub last commit](https://img.shields.io/github/last-commit/0chil/algo)
-[![Hits](https://hits.seeyoufarm.com/api/count/incr/badge.svg?url=https%3A%2F%2Fgithub.com%2F0chil%2Falgo&count_bg=%23007EC6&title_bg=%23555555&icon=&icon_color=%23E7E7E7&title=hits&edge_flat=false)](https://hits.seeyoufarm.com)
+<!-- [![Hits](https://hits.seeyoufarm.com/api/count/incr/badge.svg?url=https%3A%2F%2Fgithub.com%2F0chil%2Falgo&count_bg=%23007EC6&title_bg=%23555555&icon=&icon_color=%23E7E7E7&title=hits&edge_flat=false)](https://hits.seeyoufarm.com) -->
 <!-- [![Latest Post](https://img.shields.io/endpoint?url=https%3A%2F%2Fapi.chll.it%2FgetLatestPost%2Fbadge&color=12b886)](https://chll.it)<br> -->
 <div align=center><img src="https://api.chll.it/solvedac/tierImage" width=75>
 
@@ -15,6 +15,36 @@
 ![Rank](https://img.shields.io/badge/dynamic/json?label=rank&query=%24.rank&url=https%3A%2F%2Fapi.chll.it%2Fsolvedac)
 ![Keep Solving For](https://img.shields.io/badge/dynamic/json?label=keep%20solving%20for&query=%24.maxStreak&suffix=%20days&url=https%3A%2F%2Fapi.chll.it%2Fsolvedac)
 </div>
+
+<details align=center>
+<summary><a href="https://solved.ac">solved.ac</a> 뱃지 따라하기</summary>
+
+### `{handle}` 을 자신의 아이디로 바꾸세요<br><br>
+
+![Solved](https://img.shields.io/badge/dynamic/json?label=solved&query=$.solvedCount&suffix=%20problems&url=https://api.chll.it/solvedac)
+
+    ![Solved](https://img.shields.io/badge/dynamic/json?label=solved&query=$.solvedCount&suffix=%20problems&url=https://api.chll.it/solvedac/{handle})
+<br>
+
+![Rank](https://img.shields.io/badge/dynamic/json?label=rank&query=$.rank&url=https://api.chll.it/solvedac)
+
+    ![Rank](https://img.shields.io/badge/dynamic/json?label=rank&query=$.rank&url=https://api.chll.it/solvedac/{handle})
+<br>
+
+![Keep Solving For](https://img.shields.io/badge/dynamic/json?label=keep%20solving%20for&query=%24.maxStreak&suffix=%20days&url=https%3A%2F%2Fapi.chll.it%2Fsolvedac)
+
+    ![Keep Solving For](https://img.shields.io/badge/dynamic/json?label=keep%20solving%20for&query=$.maxStreak&suffix=%20days&url=https://api.chll.it/solvedac/{handle})
+<br>
+
+<div align=center><img src="https://api.chll.it/solvedac/tierImage" width=75>
+
+![Tier](https://img.shields.io/badge/dynamic/json?color=yellow&label=tier&query=%24.tierName&url=https%3A%2F%2Fapi.chll.it%2Fsolvedac)
+</div>
+
+    <div align=center><img src="https://api.chll.it/solvedac/{handle}/tierImage" width=75>
+
+    ![Tier](https://img.shields.io/badge/dynamic/json?color=yellow&label=tier&query=$.tierName&url=https://api.chll.it/solvedac/{handle})</div>
+</details><br>
 
 ## 여기다 뭐하는 중?
 - 2021.7.12 부터 하루에 알고리즘 3~5문제씩 푸는 습관을 들여 진행중입니다. (생각보다 재밌음)
