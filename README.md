@@ -9,11 +9,11 @@
 <div align=center><img src="https://api.chll.it/solvedac/tierImage" width=75>
 
 ![Tier](https://img.shields.io/badge/dynamic/json?color=yellow&label=tier&query=%24.tierName&url=https%3A%2F%2Fapi.chll.it%2Fsolvedac)
+![Rating](https://img.shields.io/badge/dynamic/json?label=rating&query=%24.rating&url=https%3A%2F%2Fapi.chll.it%2Fsolvedac)
 </div>
 
 ![Solved](https://img.shields.io/badge/dynamic/json?label=solved&query=%24.solvedCount&suffix=%20problems&url=https%3A%2F%2Fapi.chll.it%2Fsolvedac)
 ![Rank](https://img.shields.io/badge/dynamic/json?label=rank&query=%24.rank&url=https%3A%2F%2Fapi.chll.it%2Fsolvedac)
-![Keep Solving For](https://img.shields.io/badge/dynamic/json?label=keep%20solving%20for&query=%24.maxStreak&suffix=%20days&url=https%3A%2F%2Fapi.chll.it%2Fsolvedac)
 </div>
 
 <details align=center>
@@ -31,11 +31,6 @@
     ![Rank](https://img.shields.io/badge/dynamic/json?label=rank&query=$.rank&url=https://api.chll.it/solvedac/{handle})
 <br>
 
-![Keep Solving For](https://img.shields.io/badge/dynamic/json?label=keep%20solving%20for&query=%24.maxStreak&suffix=%20days&url=https%3A%2F%2Fapi.chll.it%2Fsolvedac)
-
-    ![Keep Solving For](https://img.shields.io/badge/dynamic/json?label=keep%20solving%20for&query=$.maxStreak&suffix=%20days&url=https://api.chll.it/solvedac/{handle})
-<br>
-
 <div align=center><img src="https://api.chll.it/solvedac/tierImage" width=75>
 
 ![Tier](https://img.shields.io/badge/dynamic/json?color=yellow&label=tier&query=%24.tierName&url=https%3A%2F%2Fapi.chll.it%2Fsolvedac)
@@ -43,7 +38,9 @@
 
     <div align=center><img src="https://api.chll.it/solvedac/{handle}/tierImage" width=75>
 
-    ![Tier](https://img.shields.io/badge/dynamic/json?color=yellow&label=tier&query=$.tierName&url=https://api.chll.it/solvedac/{handle})</div>
+    ![Tier](https://img.shields.io/badge/dynamic/json?color=yellow&label=tier&query=$.tierName&url=https://api.chll.it/solvedac/{handle})
+    ![Rating](https://img.shields.io/badge/dynamic/json?label=rating&query=$.rating&url=https://api.chll.it/solvedac/{handle})
+    </div>
 </details><br>
 
 ## 여기다 뭐하는 중?
