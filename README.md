@@ -46,13 +46,20 @@
 ## 여기다 뭐하는 중?
 - 2021.7.12 부터 틈틈히 알고리즘 문제를 푸는 습관을 들여 진행중입니다.
 - 인상깊거나 재밌었던, 혹은 고민하게 했던 사항을 블로그/코드에 적어놓는 편입니다.
-- ### [땡칠로그 - 사지방에서 알고리즘 시리즈](https://velog.io/@0chil/series/%EC%82%AC%EC%A7%80%EB%B0%A9%EC%97%90%EC%84%9C-%EC%BD%94%EB%94%A9%ED%95%98%EA%B8%B0)
+- ### [땡칠로그 - 알고리즘 시리즈](https://velog.io/@0chil/series/%EC%82%AC%EC%A7%80%EB%B0%A9%EC%97%90%EC%84%9C-%EC%BD%94%EB%94%A9%ED%95%98%EA%B8%B0)
 - 동적계획법을 좋아해서 동적계획법으로 좀 편향되었을 수 있습니다.
 
 ## 문제집/순서
 - [알고리즘 문제 리스트](https://velog.io/@0chil/%EC%95%8C%EA%B3%A0%EB%A6%AC%EC%A6%98-%EB%AC%B8%EC%A0%9C-%EB%A6%AC%EC%8A%A4%ED%8A%B8%EA%B8%B0%EC%B4%881%EC%A4%91%EA%B8%893)
 
 ## 알고리즘 푸는 환경
+▼ 현재
+- Macbook Air (2020) 13''
+- M1, 16GB RAM
+- macOS Monterey
+<details>
+<summary>과거</summary>
+
 - 사지방
 - Ampere A1 Compute Container (Oracle Cloud)
 - Neoverse N1(2 cores), 12GB RAM
@@ -60,6 +67,7 @@
 - g++, gdb
 - [code-server](https://github.com/cdr/code-server)
 - [FiraCode](https://github.com/tonsky/FiraCode) font
+</details>
 
 ## 팁
 - > **`.vscode` 디렉토리 안에 user snippet 파일 있습니다.**<br> 1. 해당 디렉토리를 프로젝트 안에 넣으시고<br>2. `문제번호.cpp` 파일 만들고 `algo` 라고 치거나, `dp` 라고 치면 <br>3. 아래처럼 주석과 함께 템플릿이 자동완성됩니다.

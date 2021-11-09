@@ -40,7 +40,7 @@ int bfs()
     {
         Node cur = q.front();
         q.pop_front();
-        
+
         if (cur.y == n - 1 && cur.x == m - 1)
         {
             return cur.depth;
@@ -58,7 +58,8 @@ int bfs()
                     nextNode.depth++;
                     q.push_back(nextNode);
                 }
-                else{
+                else
+                {
                     q.push_front(nextNode);
                 }
                 nextNode.visit();
