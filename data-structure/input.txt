@@ -1,0 +1,6 @@
+flower 꽃
+name 이름
+car 자동차
+tea 차
+color 색
+eye 눈
