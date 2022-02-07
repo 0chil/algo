@@ -21,25 +21,26 @@
 
 ### `{handle}` 을 자신의 아이디로 바꾸세요<br><br>
 
-![Solved](https://img.shields.io/badge/dynamic/json?label=solved&query=$.solvedCount&suffix=%20problems&url=https://api.chll.it/solvedac)
+![Solved](https://img.shields.io/badge/dynamic/json?label=solved&query=$.solvedCount&suffix=%20problems&url=https://api.chll.it/solved-ac)
 
-    ![Solved](https://img.shields.io/badge/dynamic/json?label=solved&query=$.solvedCount&suffix=%20problems&url=https://api.chll.it/solvedac/{handle})
+    ![Solved](https://img.shields.io/badge/dynamic/json?label=solved&query=$.solvedCount&suffix=%20problems&url=https://api.chll.it/solved-ac/{handle})
 <br>
 
-![Rank](https://img.shields.io/badge/dynamic/json?label=rank&query=$.rank&url=https://api.chll.it/solvedac)
+![Rank](https://img.shields.io/badge/dynamic/json?label=rank&query=$.rank&url=https://api.chll.it/solved-ac)
 
-    ![Rank](https://img.shields.io/badge/dynamic/json?label=rank&query=$.rank&url=https://api.chll.it/solvedac/{handle})
+    ![Rank](https://img.shields.io/badge/dynamic/json?label=rank&query=$.rank&url=https://api.chll.it/solved-ac/{handle})
 <br>
 
-<div align=center><img src="https://api.chll.it/solvedac/tierImage" width=75>
+<div align=center><img src="https://api.chll.it/solved-ac/tier-image" width=75>
 
-![Tier](https://img.shields.io/badge/dynamic/json?color=yellow&label=tier&query=%24.tierName&url=https%3A%2F%2Fapi.chll.it%2Fsolvedac)
+![Tier](https://img.shields.io/badge/dynamic/json?color=yellow&label=tier&query=%24.tierName&url=https%3A%2F%2Fapi.chll.it%2Fsolved-ac)
+![Rating](https://img.shields.io/badge/dynamic/json?label=rating&query=%24.rating&url=https%3A%2F%2Fapi.chll.it%2Fsolved-ac)
 </div>
 
-    <div align=center><img src="https://api.chll.it/solvedac/{handle}/tierImage" width=75>
+    <div align=center><img src="https://api.chll.it/solved-ac/{handle}/tier-image" width=75>
 
-    ![Tier](https://img.shields.io/badge/dynamic/json?color=yellow&label=tier&query=$.tierName&url=https://api.chll.it/solvedac/{handle})
-    ![Rating](https://img.shields.io/badge/dynamic/json?label=rating&query=$.rating&url=https://api.chll.it/solvedac/{handle})
+    ![Tier](https://img.shields.io/badge/dynamic/json?color=yellow&label=tier&query=$.tierName&url=https://api.chll.it/solved-ac/{handle})
+    ![Rating](https://img.shields.io/badge/dynamic/json?label=rating&query=$.rating&url=https://api.chll.it/solved-ac/{handle})
     </div>
 </details><br>
 
