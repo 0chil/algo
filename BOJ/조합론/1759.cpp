@@ -4,7 +4,7 @@
 using namespace std;
 const char vowelCandidate[] = {'a', 'e', 'i', 'o', 'u'};
 
-vector<char> consonants, vowels;
+vector<char> chars;
 int l, c;
 
 void brute(int ci, int vowelCnt, string &sofar)
@@ -15,12 +15,12 @@ void brute(int ci, int vowelCnt, string &sofar)
         cout << sofar << '\n';
         return;
     }
-    if (ci >= consonants.size())
+    if (ci >= chars.size())
         return;
 
-    if (sofar.length() == 0 || sofar[sofar.length() - 1] < consonants[ci])
+    if (sofar.length() == 0 || sofar[sofar.length() - 1] < chars[ci])
     {
-        char cur = consonants[ci];
+        char cur = chars[ci];
         bool isVowel = false;
         for (char comp : vowelCandidate)
             if (cur == comp)
@@ -45,9 +45,9 @@ int main()
     {
         char temp;
         cin >> temp;
-        consonants.push_back(temp);
+        chars.push_back(temp);
     }
-    sort(consonants.begin(), consonants.end());
+    sort(chars.begin(), chars.end());
     string s;
     brute(0, 0, s);
 }
