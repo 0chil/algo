@@ -19,7 +19,10 @@ void join(int a, int b)
     a = find(a);
     b = find(b);
     if (score[b] && !score[a])
+    {
         swap(a, b);
+        cout << "swap";
+    }
     parent[b] = a;
     if (score[b] > 0)
     {
@@ -63,23 +66,22 @@ int main()
         cin >> a >> b;
         join(a, b);
     }
-    int visited[1000001];
-    for (int i = 1; i <= n; i++)
-    {
-        int root = find(i);
-        if (visited[root])
-            continue;
-        visited[root] = score[root] / people[root];
-    }
 
     for (int i = 1; i <= n; i++)
     {
+        int root = find(i);
         if (score[i] == 0)
-            scoreAccum += visited[find(i)];
+            scoreAccum += score[root] / people[root];
     }
-    cout.precision(2);
-    cout << fixed;
-    cout << (double)scoreAccum / n;
+
+    // for (int i = 1; i <= n; i++)
+    // {
+    //     if (score[i] == 0)
+    //         scoreAccum += visited[find(i)];
+    // }
+    string answer = to_string((double)scoreAccum / n);
+    answer = answer.substr(0, answer.find('.') + 3);
+    cout << answer;
 }
 
 // 5 3 3 1 4 2 5 4 3 1 2 3 2 5 4
